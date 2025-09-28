@@ -1,0 +1,14 @@
+pandoc: 3.7.0.2
+pkgdown: 2.1.3.9000
+pkgdown_sha: f950aed41af49c732ba7884d0806c3641a7b94b3
+articles:
+  bleached_palettes: bleached_palettes.html
+  examples: examples.html
+  palettes: palettes.html
+  taxonomy: taxonomy.html
+  Untitled: Untitled.html
+  visualise: visualise.html
+last_built: 2025-09-28T13:08Z
+urls:
+  reference: https://marine-ecologist.github.io/coralcolors/reference
+  article: https://marine-ecologist.github.io/coralcolors/articles

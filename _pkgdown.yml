@@ -1,0 +1,36 @@
+url: https://marine-ecologist.github.io/coralcolors/
+template:
+  bootstrap: 5
+
+authors:
+  George Roff:
+    href: https://github.com/marine-ecologist/
+
+navbar:
+  structure:
+    left: [reference, vignettes, github]
+    right: [search]
+
+  components:
+    reference:
+      icon: fa-layer-group
+      text: Reference
+      href: reference/
+    vignettes:
+      text: "Vignettes"
+      icon: fa-globe
+      menu:
+        - text: "1. coralcolor palettes"
+          href: articles/taxonomy.html
+        - text: "2. coralbleaching palettes"
+          href: articles/bleached_palettes.html
+        - text: "3. coralcolor examples"
+          href: articles/examples.html
+        - text: "4. visualise palettes"
+          href: articles/visualise.html
+    github:
+      icon: fa-github
+      text: GitHub
+      href: https://github.com/marine-ecologist/coralcolors/
+    search:
+      search: true

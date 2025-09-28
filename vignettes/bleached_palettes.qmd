@@ -1,0 +1,163 @@
+---
+title: "coralcolours bleaching"
+format:
+  html:
+    code-fold: false
+    code-show: true
+editor: visual
+---
+
+#### `acanthastrea`
+
+^*Acanthastrea echinata*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+#| message: false
+#| warning: false
+
+library(coralcolors)
+show_colors(coral_palettes$acanthastrea, nrow=1)
+show_colors(bleach(coral_palettes$acanthastrea), nrow=1)
+```
+
+#### `acropora1`
+
+^*Acropora cervicornis*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$acropora1, nrow=1)
+show_colors(bleach(coral_palettes$acropora1), nrow=1)
+```
+
+#### `acropora2`
+
+^*Acropora palmata*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$acropora2, nrow=1)
+show_colors(bleach(coral_palettes$acropora2), nrow=1)
+```
+
+#### `acropora3`
+
+^*Acropora millepora*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$acropora3, nrow=1)
+show_colors(bleach(coral_palettes$acropora3), nrow=1)
+```
+
+#### `acropora4`
+
+^*Acropora tenuis*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$acropora4, nrow=1)
+show_colors(bleach(coral_palettes$acropora4), nrow=1)
+
+```
+
+#### `australophyllia`
+
+^*Australophyllia wilsonii*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+#| message: false
+#| warning: false
+
+show_colors(coral_palettes$australophyllia, nrow=1)
+show_colors(bleach(coral_palettes$australophyllia), nrow=1)
+```
+
+#### `cyphastrea`
+
+^*Cyphastrea sp.*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$cyphastrea, nrow=1)
+show_colors(bleach(coral_palettes$cyphastrea), nrow=1)
+```
+
+#### `montipora`
+
+^*Montipora digitata*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+#| message: false
+#| warning: false
+
+show_colors(coral_palettes$montipora, nrow=1)
+show_colors(bleach(coral_palettes$montipora), nrow=1)
+```
+
+#### `micromussa`
+
+^*Micromussa lordhowensis*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$micromussa, nrow=1)
+show_colors(bleach(coral_palettes$micromussa), nrow=1)
+
+```
+
+#### `porites`
+
+^*Porites lobata*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$porites, nrow=1)
+show_colors(bleach(coral_palettes$porites), nrow=1)
+```
+
+#### `seriatopora`
+
+^*Seriatopora hysterix*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+
+show_colors(coral_palettes$seriatopora, nrow=1)
+show_colors(bleach(coral_palettes$seriatopora), nrow=1)
+```
+
+#### `symbiodinium`
+
+^*Symbiodinium sp.*^
+
+```{r}
+#| fig-width: 14
+#| fig-height: 2
+#| message: false
+#| warning: false
+
+show_colors(coral_palettes$symbiodinium, nrow=1)
+show_colors(bleach(coral_palettes$symbiodinium), nrow=1)
+```

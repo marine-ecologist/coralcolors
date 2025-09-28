@@ -1,0 +1,203 @@
+---
+title: "coralcolours taxonomy"
+format: html
+editor: visual
+---
+
+# Acanthastrea
+
+## *Acanthastrea echinata*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/echinata.jpg){width="400"} | ![](../images/echinata-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+#| message: false
+#| warning: false
+
+library(coralcolors)
+
+echinata <- c("#2D4F68", "#0570C2","#039FFF","#018CAF","#00B09C", "#F9B908", "#A84743")
+show_colors(echinata, nrow=1)
+```
+
+# Acropora
+
+## *Acropora cervicornis*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/cervicornis.jpg){width="400"} | ![](../images/cervicornis-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+cervicornis <-c("#453e1e", "#97976f", "#c3cab3", "#5b8b7d", "#28607b", "#275d6a")
+show_colors(cervicornis, nrow=1)
+```
+
+## *Acropora palmata*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/palmata.jpg){width="400"} | ![](../images/palmata-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+palmata <-c( "#908A7B", "#dbd798", "#90C3D0", "#fdde2e", "#f5b11e", "#c98230")
+show_colors(palmata, nrow=1)
+```
+
+## *Acropora millepora*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/millepora.jpg){width="400"} | ![](../images/millepora-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+millepora <-c( "#0b043e", "#6a5478", "#a9727a", "#82a0d2", "#ffcaa4", "#b65039")
+show_colors(millepora, nrow=1)
+```
+
+## *Acropora tenuis*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/tenuis.jpg){width="400"} | ![](../images/tenuis-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+tenuis <-c( "#deb9ff", "#cf69e4", "#6a27b7", "#572180", "#420868", "#28083e")
+show_colors(tenuis, nrow=1)
+```
+
+# Australophyllia
+
+## *Australophyllia wilsonii*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/wilsonii.jpg){width="400"} | ![](../images/wilsonii-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+#| message: false
+#| warning: false
+
+wilsonii <- c("#5e263c", "#b14a45", "#da867a","#b6cdad","#5d8357","#5483bb", "#2a52ce")
+show_colors(wilsonii, nrow=1)
+```
+
+# Cyphastrea
+
+## *Cyphastrea sp*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/cyphastrea.jpg){width="400"} | ![](../images/cyphastrea-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+cyphastrea <- c("#8e4c2d", "#d26e38", "#f0ac22", "#5561aa", "#3652a1", "#252962", "#171025")
+show_colors(cyphastrea, nrow=1)
+
+```
+
+# Montipora
+
+## *Montipora digitata*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/digitata.jpg){width="400"} | ![](../images/digitata-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+#| message: false
+#| warning: false
+
+digitata <- c("#a67fac", "#4c5383","#8d98cc", "#929e46", "#c3d4c2","#d15753", "#b0322f")
+show_colors(digitata, nrow=1)
+```
+
+# Micromussa
+
+## *Micromussa lordhowensis*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/micromussa.jpg){width="400"} | ![](../images/micromussa-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+lordhowensis <- c("#3C82F3", "#FF6F68", "#A86D9D", "#77A7CD", "#643995", "#46588F", "#5960EC")
+show_colors(lordhowensis, nrow=1)
+
+```
+
+# Porites
+
+## *Porites lutea*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/lutea.jpg){width="400"} | ![](../images/lutea-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+#lobata <- c("#908A7B", "#BD8856", "#5D6896", "#90C3D0", "#CECDB8", "#62A190", "#627886")
+lobata <- c("#422b35", "#815850", "#c78f7d",  "#cdbaae", "#627886", "#5f999f", "#384b74")
+
+show_colors(lobata, nrow=1)
+```
+
+# Seriatopora
+
+## *Seriatopora hysterix*
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/hysterix.jpg){width="400"} | ![](../images/hysterix-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+
+hysterix <- c("#e1cbe0", "#c797c5" ,"#b377b3", "#a65497", "#943e70", "#6f293d", "#34111a")
+show_colors(hysterix, nrow=1)
+```
+
+# Symbodinium
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](../images/symbiodinium.jpg){width="400"} | ![](../images/symbiodinium-trace.jpg){width="400"} |
+
+```{r}
+#| fig-width: 14
+#| fig-height: 3
+#| message: false
+#| warning: false
+
+symbodinium <- c("#6e4c1f","#9e743a","#a29070","#a9a89f", "#acbdc2", "#beced6")
+show_colors(symbodinium, nrow=1)
+```
